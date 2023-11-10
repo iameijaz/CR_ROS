@@ -38,7 +38,7 @@ catkin_make
 source $HOME/catkin_ws/devel/setup.bash
 ```
 # set the dobot type
-### If you use CR3 robot， please type the fllow commands
+### If you use CR3 robot， please type the following commands
 ```
 echo "export DOBOT_TYPE=cr3" >> ~/.bashrc
 source ~/.bashrc
@@ -48,12 +48,12 @@ source ~/.bashrc
 echo "export DOBOT_TYPE=cr5" >> ~/.bashrc
 source ~/.bashrc
 ```
-### If you use CR10 robot， please type the fllow commands
+### If you use CR10 robot， please type the following commands
 ```
 echo "export DOBOT_TYPE=cr10" >> ~/.bashrc
 source ~/.bashrc
 ```
-### If you use CR16 robot， please type the fllow commands
+### If you use CR16 robot， please type the following commands
 ```
 echo "export DOBOT_TYPE=cr16" >> ~/.bashrc
 source ~/.bashrc
@@ -100,7 +100,7 @@ source ~/.bashrc
     * Drag the joint to any direction, then click "Plan and Excute" to see the result
 ## Controlling real robotic arm
 
-* **Connect the robotic arm with following command, and robot_ip is the IP address that the real arm locates**
+* **Connect the robotic arm with following command, and robot_ip(default:=192.168.5.1) is the IP address that the real arm locates**
     ```
     roslaunch dobot_bringup bringup.launch robot_ip:=192.168.5.1
     ```
